@@ -17,3 +17,4 @@ jobs:
           node-version: 16
       - run: npm ci
       - run: npm run stylelint
+      - run: npm run test
