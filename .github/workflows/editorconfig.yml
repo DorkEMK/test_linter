@@ -2,9 +2,9 @@ name: EditorConfig
 
 on:
   pull_request:
-    branches: [ master, develop ]
+    branches: [ master, main, develop ]
   push:
-    branches: [ master, develop ]
+    branches: [ master, main, develop ]
 
 jobs:
   lint:
